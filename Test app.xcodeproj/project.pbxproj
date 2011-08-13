@@ -24,6 +24,7 @@
 		5829E50713F67FD200A15346 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5829E4E013F67FD100A15346 /* CoreData.framework */; };
 		5829E50F13F67FD200A15346 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5829E50D13F67FD200A15346 /* InfoPlist.strings */; };
 		5829E51213F67FD200A15346 /* Test_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5829E51113F67FD200A15346 /* Test_appTests.m */; };
+		5829E51C13F6803000A15346 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5829E51B13F6803000A15346 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,25 +42,26 @@
 		5829E4DC13F67FD100A15346 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5829E4DE13F67FD100A15346 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5829E4E013F67FD100A15346 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		5829E4E413F67FD100A15346 /* Test app-Info.plist */ = {isa = PBXFileReference; path = "Test app-Info.plist"; sourceTree = "<group>"; };
+		5829E4E413F67FD100A15346 /* Test app-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test app-Info.plist"; sourceTree = "<group>"; };
 		5829E4E613F67FD100A15346 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5829E4E813F67FD100A15346 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5829E4EA13F67FD100A15346 /* Test app-Prefix.pch */ = {isa = PBXFileReference; path = "Test app-Prefix.pch"; sourceTree = "<group>"; };
-		5829E4EB13F67FD100A15346 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		5829E4EA13F67FD100A15346 /* Test app-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test app-Prefix.pch"; sourceTree = "<group>"; };
+		5829E4EB13F67FD100A15346 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5829E4EC13F67FD100A15346 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5829E4EF13F67FD200A15346 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		5829E4F213F67FD200A15346 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		5829E4F513F67FD200A15346 /* Test_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Test_app.xcdatamodel; sourceTree = "<group>"; };
-		5829E4F713F67FD200A15346 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		5829E4F713F67FD200A15346 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		5829E4F813F67FD200A15346 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		5829E4FA13F67FD200A15346 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		5829E4FA13F67FD200A15346 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		5829E4FB13F67FD200A15346 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		5829E50213F67FD200A15346 /* Test appTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test appTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5829E50313F67FD200A15346 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5829E50C13F67FD200A15346 /* Test appTests-Info.plist */ = {isa = PBXFileReference; path = "Test appTests-Info.plist"; sourceTree = "<group>"; };
+		5829E50C13F67FD200A15346 /* Test appTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test appTests-Info.plist"; sourceTree = "<group>"; };
 		5829E50E13F67FD200A15346 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5829E51013F67FD200A15346 /* Test_appTests.h */ = {isa = PBXFileReference; path = Test_appTests.h; sourceTree = "<group>"; };
+		5829E51013F67FD200A15346 /* Test_appTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test_appTests.h; sourceTree = "<group>"; };
 		5829E51113F67FD200A15346 /* Test_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_appTests.m; sourceTree = "<group>"; };
+		5829E51B13F6803000A15346 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5829E51C13F6803000A15346 /* CoreLocation.framework in Frameworks */,
 				5829E4DD13F67FD100A15346 /* UIKit.framework in Frameworks */,
 				5829E4DF13F67FD100A15346 /* Foundation.framework in Frameworks */,
 				5829E4E113F67FD100A15346 /* CoreData.framework in Frameworks */,
@@ -90,6 +93,7 @@
 		5829E4CD13F67FD000A15346 = {
 			isa = PBXGroup;
 			children = (
+				5829E51B13F6803000A15346 /* CoreLocation.framework */,
 				5829E4E213F67FD100A15346 /* Test app */,
 				5829E50A13F67FD200A15346 /* Test appTests */,
 				5829E4DB13F67FD100A15346 /* Frameworks */,
